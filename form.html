@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="eng" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>form tutorial</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+<form action="mailto:jk.wegorowska@gmail.com" enctype="text/plain" method="post">
+  <label for"">Please enter your username:</label>
+<input type="text"name="username" placeholder="username" value=""required>
+<br><br>
+  <input type="email"name="email"value=""required><br><br>
+  <input type="password"name="pwd"value=""required>
+  <textarea name="summary"placeholder="please write about yourself "rows="8"cols="80"></textarea><br><br>
+    <input type="checkbox" id="checklist" name="check1"value>
+    <label for="checklist">checklist</label>
+    <input type="checkbox" id="menu" name="check2"value=""checked>
+    <label for="menu">menu</label>
+<input type="checkbox" id="justynaw" name="check3"value="">
+<p>welcome</p>
+
+Please choose your favourite fruit: <br><br><br>
+
+<input type="radio" name="fruit" id="apple" value="">
+<label for="apple">Apple</label>
+<input type="radio" name="fruit" id="banana" value="">
+<label for="banana">Banana</label>
+<input type="radio" name="fruit" id="Watermelon" value="">
+<label for="Watermelon">Watermelon</label>
+<br><br><br>
+<!-- THIS IS HOW I CREATED MY SELECT OPTIONS -->
+
+Your favourite Hobby
+<label for="justynaw">justynaw</label>
+<button type="submit">submit</button>
+<select class=""name="list">
+  <option value=""></option>
+  <option value="plaing instrument">playing instrument</option>
+  <option value="alpinism">alpinism</option>
+  <option value="reading books">reading books</option>
+</select>
+<br><br>
+<br><br>
+<fieldset>
+  <legend>choose your favourite drink</legend>
+  <input type="radio" name="drink"id="pepsi"value="pepsi">
+  <label for="pepsi">pepsi</label>
+  <input type="radio"name="drink"id="coke"value="coke">
+  <label for="coke">coke</label>
+</fieldset>
+<br><br><br>
+<select class="" id="shopping"name="">
+  <optgroup label="food">
+    <option value="">apple</option>
+    <option value="">banana</option>
+  </optgroup>
+  <optgroup label="Clothing">
+  <option value="">Shirt</option>
+<option value="">Pants</option>
+        </optgroup>
+  </select>
+<button type="submit">Submit</button>
+</form>
+</center>
+</body>
+</html>
